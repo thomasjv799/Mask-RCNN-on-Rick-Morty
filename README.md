@@ -4,7 +4,9 @@ This is an implementation of Mask R-CNN on Rick and Morty Cartoon Character.
 
 # Getting Started
 1.Dataset:Collect the Rick and Morty character pictures. I got a lot of images from Kaggle. Refer this https://www.kaggle.com/yoongtran/rick-and-morty-characters to download the dataset
+
 2.Annotation:There is two class , rick and morty. I used VGG Annotation tool. Created an attribute called character and in it gave two ids rick and morty as description.
+
 3.Code:I modified the coco.py file to suit my needs. I have attached my file as character.py
 
 #Training 

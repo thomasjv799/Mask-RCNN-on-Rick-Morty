@@ -18,3 +18,5 @@ My dataset had 45+15 pictures.45 for training and 15 for validation
 
 The results were fine though there is need for more images since there is two classes each class may require atleast 60-100 images.
 Overall if you are starting with mask rcnn this is a good way to start.
+
+![](download (1).png)

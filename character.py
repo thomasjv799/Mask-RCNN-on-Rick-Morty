@@ -1,7 +1,9 @@
 import os
 import sys
+
 import numpy
 import pandas
+
 
 # Root directory of the project
 ROOT_DIR = os.path.abspath("/content/character")

@@ -8,7 +8,7 @@ import skimage.draw
 # Root directory of the project
 ROOT_DIR = os.path.abspath("/content/character")
 
-print(ROOT_DIR)
+print(ROOT_DIR) ################
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library

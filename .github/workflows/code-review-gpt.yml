@@ -4,6 +4,7 @@ on:
   pull_request:
     branches: ["master"]
 
+
 permissions:
   pull-requests: write
   contents: write
@@ -17,6 +18,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          
 
       - uses: actions/setup-node@v3
         with:

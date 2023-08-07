@@ -23,7 +23,7 @@ jobs:
           node-version: 18
 
       - name: Install code-review-gpt
-        run: sudo npm install code-review-gpt
+        run: sudo npm install code-review-gpt 
 
       - name: Run code review script
         run: sudo npx code-review-gpt review --ci

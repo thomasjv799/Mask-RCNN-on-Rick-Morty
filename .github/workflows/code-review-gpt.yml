@@ -15,7 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          repo-token: ${{secrets.GITHUB_TOKEN}}
           fetch-depth: 0
+          
 
       - uses: actions/setup-node@v3
         with:
